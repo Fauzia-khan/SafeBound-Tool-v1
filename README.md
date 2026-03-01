@@ -21,12 +21,11 @@ It streamlines the entire workflow, from scenario selection and implementation t
 
 	i. **Select Catalog** – Choose the dataset region (US, Singapore, Other). 
          
-	ii. **Select ODD** – Narrow down scenarios based on operational design domain, i.e, (Dynamic, Environmental, Scenery).
+	ii. **Select ODD** – Narrow down scenarios based on operational design domain, i.e., (Dynamic, Environmental, Scenery).
 
 	iii. **Select Dataset** – Choose the dataset US, Europe, or Singapore.
 
 	iv. **Select Simulator** – Choose the simulator.(Currently, you can select CARLA)
-
 _Output._ --> Final list of Test Scenarios.xlsx
 
 2. **Scenario Implementation Module** Converts the top-prioritized scenario into a Python script that defines the actors and their corresponding behaviors. <br>
