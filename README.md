@@ -11,7 +11,7 @@ It streamlines the entire workflow, from scenario selection and implementation t
 ## GUI for the Scenario Selection Module
 
 <p align="center">
-  <img src="SSTSS_GenSim_v1/images/Main_WIndow.png" alt="Main Window" width="600">  
+  <img src="gui_v1/images/Main_WIndow.png" alt="Main Window" width="600">  
 </p>
 
 ## Workflow 
@@ -25,10 +25,10 @@ It streamlines the entire workflow, from scenario selection and implementation t
 
 	iii. **Select Dataset** – Choose the dataset US, Europe, or Singapore.
 
-	iv. **Select Simulator** – Choose the simulator.(Currently, you can select CARLA)
+	iv. **Select Simulator** – Choose the simulator.(Currently, you can select CARLA). <br>
 _Output._ --> Final list of Test Scenarios.xlsx
 
-2. **Scenario Implementation Module** Converts the top-prioritized scenario into a Python script that defines the actors and their corresponding behaviors. <br>
+2. **Scenario Implementation Module** Maps the selected scenarios to corresponding OpenSCENARIO template and converts into a Python script that defines the actors and their corresponding behaviors. <br>
 _Output_ --> (<scenarioname.py>)
 
 3. **Scenario Configuration Module** Configures the simulation environment and applies the selected input parameters in <scenario_name.py>. <br>
@@ -147,7 +147,7 @@ python main.py
 [Click here to watch the tool demo video](https://drive.google.com/file/d/1XPXzFDNAYXQR10g7PQslKZQKBmrmNhln/view?usp=sharing)
 
 ## Authors
-Fauzia Khan, Ali Ihsan GÜllÜ, Hina Anwar, Deitmar Pfahl, "SSTSS-GenSim: A Modular Tool Chain for End-to-End Safety Evaluation of Automated Driving Systems".
+Fauzia Khan, Ali Ihsan GÜllÜ, Hina Anwar, Deitmar Pfahl, "SafeBound: A Modular Tool Chain for End-to-End Safety Evaluation of Automated Driving Systems".
 
 ---
 DS.
