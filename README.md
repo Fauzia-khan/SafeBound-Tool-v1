@@ -17,7 +17,7 @@ It streamlines the entire workflow, from scenario selection and implementation t
 ## Workflow 
  **Launch the Tool** – Run the main Python script.
  
-1. **Scenario Selection Module:** – Prioritizes and selects the test scenario based on the SSTSS process. It takes four inputs:
+1. **Scenario Selection Module** – Prioritizes and selects the test scenario based on the SSTSS process. It takes four inputs:
 
 i. **Select Catalog** – Choose the dataset region (US, Singapore, Other). 
          
@@ -29,25 +29,25 @@ iv. **Select Simulator** – Choose the simulator.(Currently, you can select CAR
 
 _Output._ --> Final list of Test Scenarios.xlsx
 
-**2. ** Scenario Implementation Module:** Converts the top-prioritized scenario into a Python script that defines the actors and their corresponding behaviors. <br>
+2. **Scenario Implementation Module** Converts the top-prioritized scenario into a Python script that defines the actors and their corresponding behaviors. <br>
 _Output_ --> (<scenarioname.py>)
 
-**3. Scenario Configuration Module:** Configures the simulation environment and applies the selected input parameters in <scenario_name.py>. <br>
+3. **Scenario Configuration Module** Configures the simulation environment and applies the selected input parameters in <scenario_name.py>. <br>
 _Output_ --> (<scenarioname.xml>) 
 
-**4. ** Simulator and ADS Integration Module:** Sets up the simulation environment, including CARLA, Scenario Runner, and Autoware Mini. <br>
+4. **Simulator and ADS Integration Module** Sets up the simulation environment, including CARLA, Scenario Runner, and Autoware Mini. <br>
 _Output_ --> (simulation setup is ready)
 
-**5. Scenario Execution Module:** Runs the configured scenario in CARLA using the integrated simulation setup. <br>
+5. **Scenario Execution Module** Runs the configured scenario in CARLA using the integrated simulation setup. <br>
 _Output_ --> (<scenarioname.log>)  and _Output_ --> (<scenarioname.json>)
 
-**6. ** Data Collection Module:** Captures all relevant simulation outputs, including timestamps, positions, and speeds of all actors involved.<br>
+6. **Data Collection Module** Captures all relevant simulation outputs, including timestamps, positions, and speeds of all actors involved.<br>
 _Output_ --> (<scenarioname_data.csv>)
 
-**7. ** Safety Metrics Evaluation Module:** Calculates the safety metrics for evaluating ADS performance.  <br>
+7. **Safety Metrics Evaluation Module** Calculates the safety metrics for evaluating ADS performance.  <br>
 _Output_ --> (<scenarioname_metrices.py>)
 
-**8. Data Visualization and Report Module:** Generates plots and summary reports based on the collected data.<br>
+8. **Data Visualization and Report Module** Generates plots and summary reports based on the collected data.<br>
 _Output_ --> (<scenario_name_metrice.png>)  and _Output_ --> (<scenarioname_summary.txt>)
 
 
