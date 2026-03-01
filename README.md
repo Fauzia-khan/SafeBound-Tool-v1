@@ -19,13 +19,13 @@ It streamlines the entire workflow, from scenario selection and implementation t
  
 1. **Scenario Selection Module** – Prioritizes and selects the test scenario based on the SSTSS process. It takes four inputs:
 
-i. **Select Catalog** – Choose the dataset region (US, Singapore, Other). 
+    	 i. **Select Catalog** – Choose the dataset region (US, Singapore, Other). 
          
-ii. **Select ODD** – Narrow down scenarios based on operational design domain, i.e, (Dynamic, Environmental, Scenery ).
+     	ii. **Select ODD** – Narrow down scenarios based on operational design domain, i.e, (Dynamic, Environmental, Scenery).
 
-iii. **Select Dataset** – Choose the dataset US, Europe, or Singapore.
+	iii. **Select Dataset** – Choose the dataset US, Europe, or Singapore.
 
-iv. **Select Simulator** – Choose the simulator.(Currently, you can select CARLA)
+	iv. **Select Simulator** – Choose the simulator.(Currently, you can select CARLA)
 
 _Output._ --> Final list of Test Scenarios.xlsx
 
