@@ -2,8 +2,8 @@
 
 
 
-# SSTSS-GenSim Tool
-SSSTSS-GenSim is a modular end-to-end pipeline for scenario-based safety testing of Automated Driving Systems (ADS).
+# SafeBound Tool
+SafeBound is a modular end-to-end pipeline for simulation-based safety testing of Automated Driving Systems (ADS).
 It streamlines the entire workflow, from scenario selection and implementation to configuration, simulation, data collection, safety evaluation, and the generation of visualization and simulation summary reports.
 
 ---
@@ -17,7 +17,7 @@ It streamlines the entire workflow, from scenario selection and implementation t
 ## Workflow 
  **Launch the Tool** – Run the main Python script.
  
-**1. Scenario Selection Module:** – Prioritizes and selects the test sceanrio based on the SSTSS process. It takes four inputs:
+**1. Scenario Selection Module:** – Prioritizes and selects the test scenario based on the SSTSS process. It takes four inputs:
 
 i. **Select Catalog** – Choose the dataset region (US, Singapore, Other). 
          
@@ -52,7 +52,7 @@ _Output_ --> (<scenario_name_metrice.png>)  and _Output_ --> (<scenarioname_summ
 
 
 ## Requirements
-The SSTSS-GenSim Tool requires a Linux-based environment with ROS and a supported simulator. The recommended Supported Operating System is Ubuntu 20.04 LTS (recommended).
+The SafeBound Tool requires a Linux-based environment with ROS and a supported simulator. The recommended Supported Operating System is Ubuntu 20.04 LTS (recommended).
 Windows is not supported because key components (Autoware_mini) do not run natively on Windows.
 
 
@@ -106,11 +106,11 @@ Set the root path inside config.py:
 SCENARIO_RUNNER_ROOT = "/home/user/scenario_runner"
 
 ```
-5. Configure SSTSS-GenSim Tool Paths
+5. Configure SafeBound Tool Paths
 
 Edit config.py inside the tool:
 ```bash
-TOOL_ROOT = "/path/to/SSTSS_GenSim_Modules"
+TOOL_ROOT = "/path/to/SafeBound"
 CARLA_ROOT = "/path/to/CARLA_0.9.13"
 SCENARIO_RUNNER_ROOT = "/path/to/scenario_runner"
 RESULTS_DIR = "os.path.join(TOOL_ROOT, "Data_Collection_Module", "raw_data"
@@ -119,15 +119,15 @@ RESULTS_DIR = "os.path.join(TOOL_ROOT, "Data_Collection_Module", "raw_data"
 
 
 
-### 4. SSTSS-GenSim-Tool Installation
+### 4. SafeBound Tool Installation
 ### 1. Clone the Repository
 ```bash
 
 # 1. Clone the repository
-git clone https://github.com/<your-username>/SSTSS-GenSim-Tool.git
+git clone https://github.com/<your-username>/SafeBound-Tool-v1.git
 
 # 2. Navigate into the project directory
-cd SSTSS-GenSim-Tool/SSTSS_GenSim_Modules
+cd SafeBound-Tool/
 
 # 3. Create a Python virtual environment (first time only)
 python -m venv venv
