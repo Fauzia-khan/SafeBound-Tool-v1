@@ -19,6 +19,18 @@ SafeBound is a modular end-to-end pipeline for scenario-based safety testing of 
 
 
 
+\## GUI for the Scenario Selection Module
+
+
+
+<p align="center">
+
+&nbsp; <img src="SafeBound\_v1/images/Main\_WIndow.png" alt="Main Window" width="600">  
+
+</p>
+
+
+
 \## Workflow 
 
 &nbsp;\*\*Launch the Tool\*\* – Run the main Python script.
