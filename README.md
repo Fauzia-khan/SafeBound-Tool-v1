@@ -19,7 +19,7 @@ It streamlines the entire workflow, from scenario selection and implementation t
  
 1. **Scenario Selection Module** – Prioritizes and selects the test scenario based on the SSTSS process. It takes four inputs:
 
-	i. **Select Catalog** – Choose the dataset region (US, Singapore, Other). 
+	i. **Select Catalog** – Choose the Scenario Catalog (US, Singapore, Other). 
          
 	ii. **Select ODD** – Narrow down scenarios based on operational design domain, i.e., (Dynamic, Environmental, Scenery).
 
@@ -150,4 +150,4 @@ python main.py
 Fauzia Khan, Ali Ihsan GÜllÜ, Hina Anwar, Deitmar Pfahl, "SafeBound: A Modular Tool Chain for End-to-End Safety Evaluation of Automated Driving Systems".
 
 ---
-DS.
+
