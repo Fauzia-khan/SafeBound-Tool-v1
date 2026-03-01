@@ -1,28 +1,11 @@
 # SafeBound-Tool-v1
 
-A tool that systematically selects, executes scenarios and evaluates safety of ADS
 
-
-
-
-
-
-
-
-
-
-
-\# SafeBound Tool
-
-SafeBoundis a modular end-to-end pipeline for scenario-based safety testing of Automated Driving Systems (ADS).
-
-It streamlines the entire workflow, from scenario selection and implementation to configuration, simulation, data collection, safety evaluation, and the generation of visualization and simulation summary reports.
+SafeBound is a modular end-to-end pipeline for scenario-based safety testing of Automated Driving Systems (ADS). It streamlines the entire workflow, from scenario selection and implementation to configuration, simulation, data collection, safety evaluation, and the generation of visualization and simulation summary reports.
 
 
 
 ---
-
-
 
 \## GUI for the Scenario Selection Module
 
