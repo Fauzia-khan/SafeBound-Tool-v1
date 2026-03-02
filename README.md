@@ -15,7 +15,7 @@ It streamlines the entire workflow, from scenario selection and implementation t
 </p>
 
 ## Workflow 
- **Launch the Tool** – Run the main Python script.
+ **Launch the Toolchain** – Run the main Python script.
  
 1. **Scenario Selection Module** – Prioritizes and selects the test scenario based on the SSTSS process. It takes four inputs:
 
@@ -28,7 +28,7 @@ It streamlines the entire workflow, from scenario selection and implementation t
 	iv. **Select Simulator** – Choose the simulator.(Currently, you can select CARLA). <br>
 _Output._ --> Final list of Test Scenarios.xlsx
 
-2. **Scenario Implementation Module** Maps the selected scenarios to corresponding OpenSCENARIO template and converts into a Python script that defines the actors and their corresponding behaviors. <br>
+2. **Scenario Implementation Module** Maps the selected scenarios to the corresponding OpenSCENARIO template and converts them into a Python script that defines the actors and their corresponding behaviors. <br>
 _Output_ --> (<scenarioname.py>)
 
 3. **Scenario Configuration Module** Configures the simulation environment and applies the selected input parameters in <scenario_name.py>. <br>
