@@ -2,7 +2,7 @@
 
 
 
-# SafeBound Tool
+# SafeBound Toolchain
 SafeBound is a modular end-to-end pipeline for simulation-based safety testing of Automated Driving Systems (ADS).
 It streamlines the entire workflow, from scenario selection and implementation to configuration, simulation, data collection, safety evaluation, and the generation of visualization and simulation summary reports.
 
