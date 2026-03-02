@@ -11,7 +11,7 @@ It streamlines the entire workflow, from scenario selection and implementation t
 ## GUI for the Scenario Selection Module
 
 <p align="center">
-  <img src="gui_v1/images/Main_WIndow.png" alt="Main Window" width="600">  
+  <img src=" SafeBound-Tool/images/scenario_selection_window.png" alt="Main Window" width="600"> 
 </p>
 
 ## Workflow 
